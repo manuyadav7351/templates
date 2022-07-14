@@ -102,7 +102,7 @@ p{
     justify-content: space-between;
     width: 100%;
     height: 100%;
-    max-width: 1300px;
+    max-width: 1400px;
     padding: 0 10px;
 }
 
@@ -112,11 +112,10 @@ p{
     background-color: rgb(31, 30, 30);
     width: 100vw;
     height: 100vw;
-    left: 100%;
     top: 0;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: right;
     align-items: center;
     z-index: 1;
     overflow: hidden;
@@ -373,7 +372,7 @@ p{
     flex-direction: column;
     padding: 30px;
     border-radius: 10px;
-    background-image: url(./media/coder.jpg);
+    background-image: url(./media/dark-wall.webp);
     background-size: cover;
     margin: 10px 5%;
     position: relative;
@@ -780,10 +779,10 @@ p{
         display: none;
     }
     #header .nav-list ul{
-        position: initial;
+        position: relative;
+        left: 45%;
         display: block;
         height: auto;
-        width: fit-content;
         background-color: transparent;
     }
     #header .nav-list ul li{
@@ -793,7 +792,8 @@ p{
     #header .nav-list ul a{
         font-size: 1.5rem;
     }
-    #header .nav-list ul a:after{
+    
+    #header .nav-list ul a::after{
         display: none;
     }
 
