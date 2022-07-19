@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
 *{
     padding: 0;
     margin: 0;
@@ -109,7 +109,6 @@ p{
 #header .nav-list ul{
     list-style: none;
     position: absolute;
-    background-color: rgb(31, 30, 30);
     width: 100vw;
     height: 100vw;
     top: 0;
@@ -124,6 +123,8 @@ p{
 
 #header .nav-list ul.active{
     left: 0;
+    background-color: black;
+    opacity: .9;
 }
 
 #header .nav-list ul a{
@@ -182,7 +183,7 @@ p{
     height: 100%;
     width: 100%;
     border-radius: 50%;
-    border: 30px solid white;
+    border: 10px solid white;
     animation: hamburger_puls 1s ease infinite;
 }
 
@@ -338,9 +339,7 @@ p{
 /*key frames*/
 
 /* services */
-#services{
 
-}
 
 #services .services{
     flex-direction: column;
