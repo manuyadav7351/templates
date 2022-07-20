@@ -751,8 +751,8 @@ p{
         margin: 0;
     }
     #contact .contact-item{
-        margin: 20px;
-        flex-direction: row;
+        margin: 10px;
+        flex-direction: column;
     }
 
     #contact .contact-item .icon{
@@ -794,6 +794,11 @@ p{
     
     #header .nav-list ul a::after{
         display: none;
+    }
+
+    #contact .contact-item{
+        margin: 10px;
+        flex-direction: row;
     }
 
     #services .service-bottom .service-item{
