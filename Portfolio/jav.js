@@ -9,7 +9,7 @@ hamburger.addEventListener('click',()=>{
 })
 
 
-document.addEventListener('scroll',()=>{
+document.addEventListener('scroll',() => {
     var scroll_position = window.scrollY;
     if(scroll_position > 250){
         header.style.backgroundColor = '#29323c';
@@ -18,7 +18,7 @@ document.addEventListener('scroll',()=>{
     }
 });
 
-menu_item.forEach(item,function () {
+menu_item.forEach(item => {
         item.addEventListener('click', () => {
             hamburger.classList.toggle('active');
             mobile_menu.classList.toggle('active');
